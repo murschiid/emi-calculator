@@ -1,75 +1,28 @@
-# Nuxt 3 Minimal Starter
+# Welcome to Interactive EMI Calculator
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Getting Started
 
-## Setup
+1. Clone this repository to your local machine:
 
-Make sure to install the dependencies:
+```
+https://github.com/murshidalams/emi-calculator.git
+```
 
-```bash
-# npm
+2. Go to the project directory:
+
+```
+cd emi-calculator
+```
+
+3. Install the dependencies:
+
+```
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+4. Run the project in Development mode:
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+```
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+The project will be run on http://localhost:3000
