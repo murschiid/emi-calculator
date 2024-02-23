@@ -83,7 +83,7 @@ const setChartOptions = () => {
             </div>
           </div>
           <div class="flex-1 xl:pl-8">
-            <Chart type="doughnut" :data="chartData" :options="chartOptions" class="w-25rem sm:w-22rem" />
+            <Chart type="doughnut" :data="chartData" :options="chartOptions" class="w-25rem sm:w-21rem" />
           </div>
         </div>
         <div class="container">
