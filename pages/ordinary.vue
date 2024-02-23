@@ -17,7 +17,7 @@ watch([amount, interest, tenure], () => {
 });
 
 const calculateEmi = (amount, interest, tenure) => {
-  const monthlyInterestRate = (interest / 12) / 100;
+  const monthlyInterestRate = interest / (12 * 100);
   const numberOfPayments = tenure * 12;
   const emi = (amount * monthlyInterestRate * Math.pow(1 + monthlyInterestRate, numberOfPayments)) / (Math.pow(1 + monthlyInterestRate, numberOfPayments) - 1);
   return emi.toFixed(2);
