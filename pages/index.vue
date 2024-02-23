@@ -65,7 +65,7 @@ const setChartOptions = () => {
               <h4 class="text-cyan-900">Loan Amount</h4>
               <Badge :value="amount + '€'" size="large" severity="success" />
             </div>
-            <Slider v-model="amount" min="1000" max="100000" step="100" class="h-1rem" />
+            <Slider v-model="amount" :min="1000" :max="100000" :step="100" class="h-1rem" />
           </div>
 
           <div class="w-full my-5">
@@ -73,7 +73,7 @@ const setChartOptions = () => {
               <h4 class="text-cyan-900">Interest Rate</h4>
               <Badge :value="interest + '%'" size="large" severity="success" />
             </div>
-            <Slider v-model="interest" min="1" max="50" step=".1" class="h-1rem" />
+            <Slider v-model="interest" :min="1" :max="50" :step=".1" class="h-1rem" />
           </div>
 
           <div class="w-full my-5">
@@ -81,7 +81,7 @@ const setChartOptions = () => {
               <h4 class="text-cyan-900">Loan Tenure</h4>
               <Badge :value="tenure + ' Years'" size="large" severity="success" />
             </div>
-            <Slider v-model="tenure" min="1" max="100" step=".5" class="h-1rem" />
+            <Slider v-model="tenure" :min="1" :max="100" :step=".5" class="h-1rem" />
           </div>
 
           <div class="bg-gray-100 mt-6 px-5 py-3">
