@@ -82,8 +82,8 @@ const setChartOptions = () => {
               <Slider v-model="tenure" :min="1" :max="100" :step=".5" class="h-1rem" />
             </div>
           </div>
-          <div class="flex-1 xl:pl-8">
-            <Chart type="doughnut" :data="chartData" :options="chartOptions" class="w-25rem sm:w-22rem" />
+          <div class="flex-1 xl:pl-8 md:ml-5">
+            <Chart type="doughnut" :data="chartData" :options="chartOptions" class="xl:w-8 md:w-9 sm:w-full" />
           </div>
         </div>
         <div class="container">
