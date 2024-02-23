@@ -52,7 +52,7 @@ const setChartOptions = () => {
 </script>
 
 <template>
-  <div class="mx-auto max-h-screen sm:w-12 xl:w-6">
+  <div class="mx-auto max-h-screen sm:w-full xl:w-6">
     <Card class="mb-3">
       <template #title> EMI Calculator (interactive) </template>
       <template #content>
