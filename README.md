@@ -25,4 +25,4 @@ npm install
 ```
 npm run dev
 ```
-The project will be run on http://localhost:3000
+The project will be run on http://localhost:3005
