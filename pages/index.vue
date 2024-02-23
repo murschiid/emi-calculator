@@ -87,7 +87,7 @@ const setChartOptions = () => {
           </div>
         </div>
         <div class="container">
-          <div class="flex flex-column bg-gray-100 mt-6 px-5 py-3">
+          <div class=" bg-gray-100 mt-6 px-5 py-3">
             <h3 class="text-cyan-900">EMI: <span class="text-cyan-600"> {{ calculateEmi(amount, interest, tenure) }}€</span></h3>
             <h3 class="text-cyan-900">Principle Amount: <span class="text-cyan-600"> {{ amount }}€</span></h3>
             <h3 class="text-cyan-900">Total Interest: <span class="text-cyan-600"> {{ ((interest * amount * tenure) / 100).toFixed(2) }}€</span></h3>
