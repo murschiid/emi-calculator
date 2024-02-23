@@ -64,21 +64,21 @@ const setChartOptions = () => {
             <div class="flex justify-content-between">
               <h4 class="text-cyan-900">Loan Amount</h4>
             </div>
-            <InputNumber v-model="amount" inputId="integeronly" class="w-full" />
+            <InputNumber v-model="amount" inputId="integeronly" mode="currency" currency="EUR" :min="1000" :max="100000" class="w-full" />
           </div>
 
           <div class="w-full my-1">
             <div class="flex justify-content-between">
               <h4 class="text-cyan-900">Interest Rate</h4>
             </div>
-            <InputNumber v-model="interest" inputId="minmaxfraction" :minFractionDigits="1" :maxFractionDigits="2" class="w-full" />
+            <InputNumber v-model="interest" inputId="minmaxfraction" :minFractionDigits="1" :maxFractionDigits="2" :min="1" :max="50" invalid mode="decimal" class="w-full" />
           </div>
 
           <div class="w-full my-1">
             <div class="flex justify-content-between">
               <h4 class="text-cyan-900">Loan Tenure</h4>
             </div>
-            <InputNumber v-model="tenure" inputId="minmaxfraction" :minFractionDigits="1" :maxFractionDigits="2" class="w-full" />
+            <InputNumber v-model="tenure" inputId="minmaxfraction" :minFractionDigits="1" :maxFractionDigits="2" :min="1" :max="100" invalid mode="decimal" class="w-full" />
           </div>
 
           <div class="bg-gray-100 mt-6 px-5 py-3">
