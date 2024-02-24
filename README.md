@@ -26,3 +26,5 @@ npm install
 npm run dev
 ```
 The project will be run on http://localhost:3005
+
+Or you can run the project form the online deployed server https://interactiveemi.netlify.app
